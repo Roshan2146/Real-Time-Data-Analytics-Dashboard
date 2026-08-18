@@ -1,0 +1,30 @@
+{
+  "name": "realtime-data-analytics-dashboard",
+  "version": "1.0.0",
+  "description": "Production-grade Real-Time Data Analytics Dashboard with React, Node.js, Express, MongoDB, Socket.io, and Chart.js",
+  "main": "server/server.js",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "seed": "npm run seed --prefix server",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build:client": "npm run build --prefix client"
+  },
+  "keywords": [
+    "real-time",
+    "dashboard",
+    "analytics",
+    "socket.io",
+    "chartjs",
+    "mongodb",
+    "express",
+    "react",
+    "vite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

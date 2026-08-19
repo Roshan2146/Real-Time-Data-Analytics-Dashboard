@@ -4,6 +4,23 @@ A modern, production-grade real-time admin analytics dashboard and telemetry ing
 
 ---
 
+## 🌐 Live Deployments & Demo
+
+| Service | Platform | Live URL |
+| :--- | :--- | :--- |
+| 💻 **Frontend Web App** | **Vercel** | **[https://real-time-data-analytics-dashboard1.vercel.app/](https://real-time-data-analytics-dashboard1.vercel.app/)** |
+| 📡 **Backend REST API** | **Render** | **[https://real-time-data-analytics-dashboard.onrender.com/api](https://real-time-data-analytics-dashboard.onrender.com/api)** |
+| ⚡ **WebSocket Server** | **Render** | **`wss://real-time-data-analytics-dashboard.onrender.com`** |
+| 🩺 **API Health Check** | **Render** | **[https://real-time-data-analytics-dashboard.onrender.com/api/health](https://real-time-data-analytics-dashboard.onrender.com/api/health)** |
+
+### 🔑 Demo Accounts (Pre-configured):
+- 👑 **Admin**: `admin@example.com` / `Admin@123` *(Full access)*
+- 📊 **Analyst**: `analyst@example.com` / `Analyst@123` *(Analytics & CSV export)*
+- 👀 **Viewer**: `viewer@example.com` / `Viewer@123` *(Read-only)*
+
+---
+
+
 ## 🌟 Key Features
 
 1. **Role-Based Access Control (RBAC)**:
